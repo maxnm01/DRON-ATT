@@ -19,13 +19,6 @@ from datetime import datetime
 import numpy as np
 import copy
 
-# Access to the RDS Database 
-Host = "dron911db.cdu0yrrytj1w.us-east-1.rds.amazonaws.com"
-User = "Dron911DB"
-ID = "Dron911DB"
-Password = "FOuND1y+Me7iK8"
-Port = 3306
-
 #
 DB = pymysql.connect(host = Host, password = Password, user = User, port = Port)
 cursor = DB.cursor()
